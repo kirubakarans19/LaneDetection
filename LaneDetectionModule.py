@@ -5,7 +5,7 @@ import utils
 
 curveList = []
 avgVal = 10
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('vid1.mp4')
 if not cap.isOpened():
     print("Error: Camera not found or unable to open")
     exit()
